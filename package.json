@@ -1,5 +1,5 @@
 {
-  "name": "@nuxtjs/apollo",
+  "name": "@7span/nuxt-apollo-module",
   "version": "4.0.1-rc.5",
   "license": "MIT",
   "main": "lib/module.js",
