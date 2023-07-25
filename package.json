@@ -1,6 +1,6 @@
 {
   "name": "@7span/nuxt-apollo-module",
-  "version": "4.0.1-rc.5",
+  "version": "4.0.1-rc.6",
   "license": "MIT",
   "main": "lib/module.js",
   "typings": "types/index.d.ts",
@@ -27,12 +27,9 @@
   "dependencies": {
     "cross-fetch": "^3.0.6",
     "universal-cookie": "^4.0.4",
-    "vue-apollo": "^3.0.5",
+    "vue-apollo": "^3.1.0",
     "vue-cli-plugin-apollo": "^0.22.2",
     "webpack-node-externals": "^2.5.2"
-  },
-  "peerDependencies": {
-    "@apollo/client": "^3.1.5"
   },
   "devDependencies": {
     "@babel/core": "latest",
