@@ -1,6 +1,6 @@
 {
   "name": "@7span/nuxt-apollo-module",
-  "version": "4.0.1-rc.6",
+  "version": "4.0.1-rc.7",
   "license": "MIT",
   "main": "lib/module.js",
   "typings": "types/index.d.ts",
@@ -18,6 +18,7 @@
     "dev2": "nuxt test/fixture-static-auth",
     "dev3": "nuxt test/fixture-multi-endpoints",
     "dev4": "nuxt test/fixture-local-state",
+    "build": "nuxt build",
     "lint": "eslint lib test",
     "test": "yarn test:fixtures && yarn test:types",
     "test:fixtures": "jest --forceExit",
@@ -25,29 +26,29 @@
     "release": "standard-version --prerelease rc && git push --follow-tags && npm publish"
   },
   "dependencies": {
-    "cross-fetch": "^3.0.6",
-    "universal-cookie": "^4.0.4",
-    "vue-apollo": "^3.1.0",
+    "cross-fetch": "^4.0.0",
+    "universal-cookie": "^6.1.1",
+    "vue-apollo": "^3.1.1",
     "vue-cli-plugin-apollo": "^0.22.2",
-    "webpack-node-externals": "^2.5.2"
+    "webpack-node-externals": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "latest",
-    "@babel/preset-env": "latest",
-    "@nuxt/types": "latest",
-    "@nuxtjs/eslint-config": "latest",
-    "@types/graphql": "latest",
-    "@types/universal-cookie": "latest",
-    "babel-eslint": "latest",
-    "babel-jest": "latest",
-    "codecov": "latest",
-    "dotenv": "latest",
-    "eslint": "latest",
-    "graphql-tag": "latest",
-    "jest": "latest",
-    "jsdom": "latest",
-    "nuxt-edge": "latest",
-    "standard-version": "latest",
-    "typescript": "latest"
+    "@babel/core": "^7.22.19",
+    "@babel/preset-env": "^7.22.15",
+    "@nuxt/types": "^2.17.1",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@types/graphql": "^14.5.0",
+    "@types/universal-cookie": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^29.7.0",
+    "codecov": "^3.8.3",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.49.0",
+    "graphql-tag": "^2.12.6",
+    "jest": "^29.7.0",
+    "jsdom": "^22.1.0",
+    "nuxt-edge": "^2.17.2-28245622.53dfec7",
+    "standard-version": "^9.5.0",
+    "typescript": "^5.2.2"
   }
 }
